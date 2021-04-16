@@ -1,0 +1,28 @@
+{
+  "name": "bailly-server",
+  "version": "1.0.0",
+  "license": "agpl-3.0",
+  "private": true,
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "doc": "jsdoc ./src -r -c ./jsdoc.conf -d ./doc",
+    "lint": "node_modules/.bin/eslint ./src --fix"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "helmet": "^4.1.0",
+    "morgan": "^1.10.0",
+    "sqlite3": "^5.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.8.1",
+    "jsdoc": "^3.6.5",
+    "nodemon": "^2.0.4"
+  }
+}
