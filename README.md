@@ -1,8 +1,8 @@
 # bailly-server
 
-Ce dépôt contient uniquement le serveur de l'application Bailly. Vous trouverez le client dans le dépôt [bailly.app](https://github.com/antoineboquet/bailly.app).
+> Ce dépôt contient uniquement le serveur de l'application Bailly. Le client se trouve dans le dépôt [bailly.app](https://github.com/antoineboquet/bailly.app).
 
-Veuillez noter que cette application utilise les données du [Bailly 2020 Hugo Chávez](http://gerardgreco.free.fr/spip.php?article52) (Gérard Gréco, André Charbonnet, Mark De Wilde, Bernard Maréchal & contributeurs), distribuées sous licence Creative Commons Attribution - Pas d'Utilisation Commerciale - Pas de Modification — « CC BY-NC-ND 4.0 »
+Veuillez noter que cette application utilise les données du [Bailly 2020 Hugo Chávez](http://gerardgreco.free.fr/spip.php?article52) (Gérard Gréco, André Charbonnet, Mark De Wilde, Bernard Maréchal & contributeurs), distribuées sous licence Creative Commons Attribution - Pas d'Utilisation Commerciale - Pas de Modification — « CC BY-NC-ND 4.0 ».
 
 ---
 
