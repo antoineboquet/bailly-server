@@ -5,7 +5,7 @@
 Veuillez noter que la base de données utilisée par le serveur n'est PAS distribuée dans ce dépôt. Si vous cherchez à faire fonctionner le serveur par vous-même, vous devrez d'abord convertir les données du [Bailly 2020 Hugo Chávez](http://gerardgreco.free.fr/spip.php?article52) dans le format spécifié au sein du code source.
 
 ## Utilisation avec Docker
-###Création de l'image
+### Création de l'image
 Dans les prochaines mise à jours de Docker, il sera possible d'utiliser directement le repository git au lieu de copier les fichiers depuis le système local ([source](https://docs.docker.com/engine/reference/builder/#adding-a-git-repository-add-git-ref-dir)). En attendant cette fonctionnalité, la construction de l'image utilise l'ancien système. Pour construire l'image, utilisez la commande suivante:
 ```shell script
 docker build -t NOM_IMAGE --build-arg port=XXXX .
