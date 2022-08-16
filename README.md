@@ -8,19 +8,19 @@ Veuillez noter que la base de données utilisée par le serveur n'est PAS distri
 
 ### Création de l'image
 
-Dans les prochaines mise à jour de Docker, il sera possible d'utiliser directement le repository git au lieu de copier les fichiers depuis le système local ([source](https://docs.docker.com/engine/reference/builder/#adding-a-git-repository-add-git-ref-dir)). En attendant cette fonctionnalité, la construction de l'image utilise l'ancien système. Pour construire l'image, utilisez la commande suivante:
+Dans les prochaines mises à jour de Docker, il sera possible d'utiliser directement le répertoire Git au lieu de copier les fichiers depuis le système local ([source](https://docs.docker.com/engine/reference/builder/#adding-a-git-repository-add-git-ref-dir)). En attendant cette fonctionnalité, la construction de l'image utilise l'ancien système. Pour construire l'image, utilisez la commande suivante :
 ```shell script
 docker build -t NOM_IMAGE --build-arg port=XXXX .
 ```
 Remplacez `NOM_IMAGE` et `XXXX` respectivement par le nom de l'image souhaité et le numéro de port désiré pour exposer le container.
-Si vous ne souhaitez pas spécifier une valeur, vous pouvez ignorer ce dernier argument et la valeur par défaut (`3000`) sera utilisée à la place. La commande deviendra:
+Si vous ne souhaitez pas spécifier une valeur, vous pouvez ignorer ce dernier argument et la valeur par défaut (`3000`) sera utilisée à la place. La commande deviendra :
 ```shell script
 docker build -t NOM_IMAGE .
 ```
 
 ### Lancement du container
 
-Utilisez la commande suivante pour créer le container:
+Utilisez la commande suivante pour créer le container :
 ```shell script
 docker run -P NOM_IMAGE
 ```
