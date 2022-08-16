@@ -12,15 +12,15 @@ Dans les prochaines mises à jour de Docker, il sera possible d'utiliser directe
 ```shell script
 docker build -t NOM_IMAGE --build-arg port=XXXX .
 ```
-Remplacez `NOM_IMAGE` et `XXXX` respectivement par le nom de l'image souhaité et le numéro de port désiré pour exposer le container.
+Remplacez `NOM_IMAGE` et `XXXX` respectivement par le nom de l'image souhaité et le numéro de port désiré pour exposer le conteneur.
 Si vous ne souhaitez pas spécifier une valeur, vous pouvez ignorer ce dernier argument et la valeur par défaut (`3000`) sera utilisée à la place. La commande deviendra :
 ```shell script
 docker build -t NOM_IMAGE .
 ```
 
-### Lancement du container
+### Lancement du conteneur
 
-Utilisez la commande suivante pour créer le container :
+Utilisez la commande suivante pour créer le conteneur :
 ```shell script
 docker run -P NOM_IMAGE
 ```
