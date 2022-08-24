@@ -4,7 +4,7 @@ import * as model from './model/index.js'
 const router = express.Router()
 
 const routerFunction = (Connection) => {
-    const prefix = process.env.URL_PREFIX
+    const prefix = process.env.URL_PREFIX ?? ""
 
     /**
      * Renvoie une définition à partir d'une URI.
