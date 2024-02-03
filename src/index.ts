@@ -19,7 +19,7 @@ const server = Bun.serve({
     const { host, pathname, searchParams } = new URL(request.url);
     const badApiLocationMessage = `The API is located at ${host}/${URL_PREFIX}`;
 
-    // Requêtes CORS "preflight"
+    // Requêtes CORS "preflight".
     if (method === "OPTIONS") {
       return new Response(JSON.stringify("OK"), {
         ...HEADERS,
